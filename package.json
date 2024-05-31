@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "start": "npx next dev -p 3244",
+    "dev": "npm run start",
     "build": "next build",
-    "start": "next start",
+    "serve": "npx next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
