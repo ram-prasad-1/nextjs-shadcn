@@ -6,6 +6,7 @@ import {
   type Icon as LucideIcon,
 } from "lucide-react"
 
+// @ts-ignore
 export type Icon = LucideIcon
 
 export const Icons = {
